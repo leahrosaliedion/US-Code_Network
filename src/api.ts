@@ -11,7 +11,7 @@ import type {
   NodeType,
 } from './types';
 
-const GRAPH_URL = '${import.meta.env.BASE_URL}title26_graph.json';
+const GRAPH_URL = `${import.meta.env.BASE_URL}title26_graph.json`;
 
 // Shape of the raw JSON coming from Python
 interface RawNode {
